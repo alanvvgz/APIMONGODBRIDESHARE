@@ -96,18 +96,18 @@ const SidePageScreen = ({ navigation, route }) => {
         </TouchableOpacity>
         <View style={styles.menuDropdown}>
           <TouchableOpacity onPress={() => navigateTo('sobrenos')}>
-            <Text>Sobre Nós</Text>
+            <Text></Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigateTo('oapp')}>
-            <Text>O Aplicativo</Text>
+            <Text></Text>
           </TouchableOpacity>
           <TouchableOpacity onPress={() => navigateTo('index')}>
-            <Text>Sair</Text>
+            <Text></Text>
           </TouchableOpacity>
         </View>
         <View style={styles.logo}>
           <TouchableOpacity onPress={() => navigateTo('Motorista')}>
-            <Image source={require('../assets/images/120.png')} style={styles.logoImage} />
+            <Image source={require('../assets/images/logot.png')} style={styles.logoImage} />
           </TouchableOpacity>
         </View>
       </View>

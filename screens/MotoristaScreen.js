@@ -173,7 +173,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   geoButton: {
-    backgroundColor: 'black',
+    backgroundColor: 'white',
     borderRadius: 30,
     paddingVertical: 10,
     paddingHorizontal: 20,
@@ -205,7 +205,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   registerButton: {
-    backgroundColor: 'black',
+    backgroundColor: 'orange',
     borderRadius: 30,
     paddingVertical: 10,
     paddingHorizontal: 20,

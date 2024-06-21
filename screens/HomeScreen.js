@@ -1,12 +1,29 @@
 import React from 'react';
-import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
+import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native';
 
 const HomeScreen = ({ navigation }) => {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>RIDESHARE</Text>
+      <Image source={require('../assets/ride.png')} style={styles.logo} />
+
+      <Text style={styles.title}>RideShare</Text>
+
       <TouchableOpacity
-        style={styles.button}
+        style={[styles.button, { backgroundColor: '#000000' }]}
+        onPress={() => navigation.navigate('Contatos')}
+      >
+        <Text style={styles.buttonText}>Contatos</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[styles.button, { backgroundColor: '#000000' }]}
+        onPress={() => navigation.navigate('Sobremim')}
+      >
+        <Text style={styles.buttonText}>Sobre Mim</Text>
+      </TouchableOpacity>
+
+      <TouchableOpacity
+        style={[styles.button, { backgroundColor: '#000' }]}
         onPress={() => navigation.navigate('Motorista')}
       >
         <Text style={styles.buttonText}>Continuar</Text>
@@ -22,6 +39,11 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
   },
+  logo: {
+    width: 200, // Adjust width as needed
+    height: 200, // Adjust height as needed
+    marginBottom: 15, // Spacing between image and title
+  },
   title: {
     fontSize: 48,
     color: '#0A0A0A',
@@ -33,6 +55,8 @@ const styles = StyleSheet.create({
     paddingVertical: 10,
     paddingHorizontal: 20,
     marginTop: 20,
+    width: '80%',
+    alignItems: 'center',
   },
   buttonText: {
     fontSize: 30,
