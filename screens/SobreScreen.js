@@ -8,7 +8,7 @@ const Sobremim = () => (
       Quem Somos?{"\n"}
       Nós somos estudantes do terceiro período do curso de Análise e Desenvolvimento de Sistemas do SENAC Pernambuco, envolvidos no projeto Embarque Digital.{"\n"}{"\n"}
       Este é um projeto para a disciplina de Desenvolvimento Mobile. O foco do nosso projeto é desenvolver um aplicativo em React Native + API CRUD em NodeJS com MongoDB, que facilitará o compartilhamento de caronas entre os colaboradores de uma empresa. 
-      {"\n"}{"\n"}Alunos: Adonis Vinicius, Alan Vitor, Cícero Antônio, Esmeralda Freire, João Victor Santos, Luis Vinicius, Mateus Caik. 
+      {"\n"}{"\n"} 
     </Text>
   </View>
 );
