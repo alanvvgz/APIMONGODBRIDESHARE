@@ -6,7 +6,7 @@ const Sobremim = () => (
     <Text style={styles.images}><Image style={styles.images1} /> </Text>
     <Text style={styles.textoPagina1}>
       Quem Somos?{"\n"}
-      Nós somos estudantes do terceiro período do curso de Análise e Desenvolvimento de Sistemas do SENAC Pernambuco, envolvidos no projeto Embarque Digital.{"\n"}{"\n"}
+      {"\n"}{"\n"}
       Este é um projeto para a disciplina de Desenvolvimento Mobile. O foco do nosso projeto é desenvolver um aplicativo em React Native + API CRUD em NodeJS com MongoDB, que facilitará o compartilhamento de caronas entre os colaboradores de uma empresa. 
       {"\n"}{"\n"} 
     </Text>
